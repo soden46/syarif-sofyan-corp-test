@@ -19,13 +19,3 @@ Route::get('/', function () {
 });
 
 Route::resource('anggota', \App\Http\Controllers\AnggotaController::class);
-
-// Route::controller(AnggotaController::class)->group(function () {
-//     Route::get('/anggota', 'index')->name('anggota');
-//     Route::get('/anggota/{id}', 'show');
-//     Route::get('/anggota/create', 'create');
-//     Route::post('/anggota/create', 'store');
-//     Route::get('/anggota/{id}', 'edit');
-//     Route::put('/anggota/{id}', 'update');
-//     Route::delete('/anggota/{id}/delete', 'delete');
-// });
